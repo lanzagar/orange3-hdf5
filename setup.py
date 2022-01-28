@@ -29,7 +29,7 @@ if __name__ == '__main__':
         package_data={
             'orangecontrib.hdf5.widgets': ['icons/*'],
         },
-        install_requires=['Orange', 'h5py'],
+        install_requires=['Orange3', 'h5py'],
         entry_points=ENTRY_POINTS,
         keywords=KEYWORDS,
         namespace_packages=['orangecontrib'],
